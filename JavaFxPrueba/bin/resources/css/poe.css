@@ -1,0 +1,82 @@
+.button {
+	-fx-box-shadow: inset 0px 1px 3px 0px #ebae67;
+	-fx-background-color: linear-gradient(to bottom, #1a0900 60%, #612f07 85%);
+	-fx-border-radius: 1px;
+	-fx-border-width: 3px;
+	-fx-border-style: solid;
+	-fx-border-color: #5e4329;
+	-fx-display: inline-block;
+	-fx-cursor: pointer;
+	-fx-color: #f5b873;
+	-fx-font-family: Arial;
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+	-fx-padding: 5px 5px;
+	-fx-text-decoration: none;
+	-fx-text-fill: #f5b873;
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(to bottom, #612f07 5%, #1a0900 100%);
+}
+
+.button:pressed {
+	-fx-background-color: linear-gradient(to bottom, #612f07 5%, #612f07 100%);
+}
+
+/* TAB */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:24px;
+    -fx-background-color: #161311;
+    -fx-border-width: 3px;
+	-fx-border-style: solid;
+	-fx-border-color: #5e4329;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: linear-gradient(to bottom, #612f07 65%, #1a0900 100%);
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: linear-gradient(to bottom, #612f07 65%, #1a0900 100%);
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #f5b873;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+ /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overridden as 5 2 0 0 */
+}
+
+/* LABEL */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #feeac5;
+}
+
+#hBoxMenu {
+    -fx-background-color: linear-gradient(to bottom, #612f07 65%, #1a0900 100%);
+}
